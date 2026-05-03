@@ -14,7 +14,7 @@ GitHub - github.com/rckvv
 wait(0.1)
 local StGui = game.StarterGui
 local boost = false
-local plr = script.Parent.Parent
+local plr = game.Players.LocalPlayer
 local SpeedMultiKey = Enum.KeyCode.W
 local qbEnabledKeyCode = Enum.KeyCode.S
 local velocityMult2 = 0.005
